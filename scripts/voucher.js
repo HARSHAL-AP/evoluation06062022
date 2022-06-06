@@ -18,7 +18,7 @@ function adda(data){
     var voucherslist=document.getElementById("voucher_list")
     data.map(function(el){
         var box=document.createElement('div')
-        let img=el.createElement('img')
+        let img=document.createElement('img')
         img.src=el.image
         let tital=document.createElement('h3')
         tital.innerText=el.name
@@ -31,3 +31,6 @@ function adda(data){
 
     })
 }
+
+
+let arr=JSON.parse(localStorage.getItem("user"))||[]
