@@ -1,0 +1,17 @@
+#wallet_balance {
+  height: 50px;
+  width: 100px;
+  background-color: aqua;
+  margin: auto;
+  border: 3px solid;
+  border-color: black;
+}
+#voucher_list {
+  height: auto;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}

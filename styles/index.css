@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#navbar {
+  height: 50px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#form {
+  height: 300px;
+  width: 250px;
+  background-color: rgba(137, 43, 226, 0.333);
+  margin: auto;
+  margin-top: 50px;
+}
+#form > h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+#form > input {
+  height: 35px;
+  width: 90%;
+  margin-left: 4%;
+  margin-top: 15px;
+}
+#submit {
+  height: 30px;
+  width: 100px;
+  margin-left: 75px;
+  margin-top: 20px;
+  background-color: rgb(31, 138, 232);
+  color: antiquewhite;
+  border: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
